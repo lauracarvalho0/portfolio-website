@@ -1,7 +1,6 @@
-/* ---- GALERIA ---- */
 .gallery {
   background-color: #f2ede9; /* fundo claro, contrasta com o bordô do about */
-  padding: 160px 8% 100px; /* padding-top maior pra não ficar colado na navbar fixa */
+  padding: 130px 8% 100px; /* padding-top maior pra não ficar colado na navbar fixa */
   text-align: center;
 }
 
