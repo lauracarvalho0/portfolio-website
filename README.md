@@ -6,7 +6,6 @@ O site foi desenvolvido para reunir em um único espaço o trabalho de Heloisa V
 
 A proposta visual busca transmitir delicadeza, sensibilidade e profissionalismo, valorizando principalmente as imagens e os momentos registrados.
 
----
 
 ## Tecnologias utilizadas
 
@@ -18,7 +17,6 @@ O projeto utiliza tecnologias web fundamentais:
 - Git
 - GitHub
 
----
 
 ## Funcionalidades
 
@@ -31,7 +29,6 @@ O projeto utiliza tecnologias web fundamentais:
 - FAQ
 - Layout responsivo
 
----
 
 ## Status do projeto
 
