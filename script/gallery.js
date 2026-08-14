@@ -3,7 +3,6 @@ const galleryItems = document.querySelectorAll('.gallery-item');
 
 filterBtns.forEach(btn => {
   btn.addEventListener('click', () => {
-    // tira o "active" de todos os botões e coloca só no clicado
     filterBtns.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
