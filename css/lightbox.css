@@ -1,0 +1,131 @@
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: #fff;
+  z-index: 100;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox-overlay.active {
+  display: block;
+  opacity: 1;
+}
+
+/* ---- barra superior: contador + ícones ---- */
+.lightbox-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 32px;
+  z-index: 102;
+  color: #1c1c1c;
+}
+
+.lightbox-counter {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #1c1c1c;
+}
+
+.lightbox-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.lightbox-btn {
+  background: none;
+  border: none;
+  color: #1c1c1c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.lightbox-btn:hover {
+  opacity: 1;
+}
+
+/* ---- área central da imagem ---- */
+.lightbox-image-wrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 100px;
+  cursor: zoom-in;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.25s ease;
+  user-select: none;
+  -webkit-user-drag: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* ---- setas laterais ---- */
+.lightbox-arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #1c1c1c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  opacity: 0.6;
+  z-index: 102;
+  transition: opacity 0.2s ease;
+}
+
+.lightbox-arrow:hover {
+  opacity: 1;
+}
+
+.lightbox-prev {
+  left: 20px;
+}
+
+.lightbox-next {
+  right: 20px;
+}
+
+/* deixa a foto da galeria com cursor de "clicável" */
+.gallery-item img {
+  cursor: zoom-in;
+}
+
+@media (max-width: 768px) {
+  .lightbox-topbar {
+    padding: 16px 18px;
+  }
+
+  .lightbox-actions {
+    gap: 14px;
+  }
+
+  .lightbox-image-wrap {
+    padding: 70px 20px;
+  }
+
+  .lightbox-arrow {
+    padding: 6px;
+  }
+}
