@@ -34,7 +34,6 @@ O projeto utiliza tecnologias web fundamentais:
 
 Em desenvolvimento
 
----
 
 ## Desenvolvido por
 
