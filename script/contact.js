@@ -1,7 +1,3 @@
-// ==================================================
-// FAQ — acordeão (clica na pergunta, abre/fecha a resposta)
-// ==================================================
-
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach(item => {
