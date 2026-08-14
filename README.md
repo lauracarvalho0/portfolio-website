@@ -1,6 +1,4 @@
-# Heloisa Ventura — Portfólio
-
-## Sobre o projeto
+## Sobre o projeto: Heloisa Ventura — Portfólio
 
 O site foi desenvolvido para reunir em um único espaço o trabalho de Heloisa Ventura, destacando sua atuação na fotografia e no cinema.
 
