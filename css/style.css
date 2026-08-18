@@ -63,13 +63,16 @@ body {
 }
 
 .navbar .logo {
-  width: 36px;
-  height: 36px;
-  border: 1px solid #fff;
-  border-radius: 50%;
+  height: 32px;       /* controla o tamanho geral da logo */
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* removido: width fixo, border, border-radius (eram pro círculo antigo) */
+}
+
+.navbar .logo img {
+  height: 100%;
+  width: auto;         /* largura se ajusta automaticamente, mantendo a proporção */
+  object-fit: contain;
 }
 
 .navbar nav {
