@@ -15,14 +15,20 @@
 
   <header class="navbar scrolled">
     <div class="logo">
-      <img src="../../images/logo.png" alt="logo">
+      <img src="../../images/logo.png" alt="Ventura Filmes e Fotografia">
     </div>
 
-    <nav>
-      <a href="../../index.html">Início</a>
-      <a href="../" class="active">Galeria</a>
-      <a href="../../contato/">Contato e FAQ</a>
+    <nav id="nav-menu">
+      <a href="/">Início</a>
+      <a href="/galeria/" class="active">Galeria</a>
+      <a href="/contato/">Contato e FAQ</a>
     </nav>
+
+    <button id="hamburger-btn" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </header>
 
   <section class="gallery">
@@ -31,10 +37,10 @@
     </div>
 
     <div class="gallery-filters">
-      <a href="../"><button class="filter-btn">Todos</button></a>
-      <a href="./"><button class="filter-btn">Pré-Wedding</button></a>
-      <a href="../casamento/"><button class="filter-btn">Casamento</button></a>
-      <a href="../gestacao/"><button class="filter-btn active">Gestação</button></a>
+      <a href="/galeria/"><button class="filter-btn">Todos</button></a>
+      <a href="/galeria/pre-wedding/"><button class="filter-btn active">Pré-Wedding</button></a>
+      <a href="/galeria/casamento/"><button class="filter-btn">Casamento</button></a>
+      <a href="/galeria/gestacao/"><button class="filter-btn ">Gestação</button></a>
     </div>
 
     <div class="gallery-grid">
