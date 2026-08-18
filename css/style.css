@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Libertinus Serif', serif;
   background-color: #550000;
@@ -14,7 +23,8 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100svh;
   overflow: hidden;
   background: #111;
 }
@@ -44,10 +54,10 @@ body {
 }
 
 .navbar {
-  position: fixed;      
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
   z-index: 20;
   display: flex;
   align-items: center;
