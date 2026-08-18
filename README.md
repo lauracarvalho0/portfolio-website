@@ -28,11 +28,6 @@ O projeto utiliza tecnologias web fundamentais:
 - Layout responsivo
 
 
-## Status do projeto
-
-Em desenvolvimento
-
-
 ## Desenvolvido por
 
 Laura Cristina de Carvalho
